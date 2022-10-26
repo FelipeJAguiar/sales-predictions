@@ -1,4 +1,4 @@
-#  PROJETO ROSSMANN PREDICTIONS
+#  PROJETO ROSSMANN SALES PREDICTIONS
 <img src="https://raw.githubusercontent.com/felipejaguiar/sales-predictions/main/img/Rossmann_Logo.png" alt="logo" style="zoom:80%;" />
 
 base de dados em: https://www.kaggle.com/competitions/rossmann-store-sales/data
