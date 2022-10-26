@@ -26,10 +26,12 @@ As premissas são alterações feitas nos dados originais a fim de melhorar a qu
 
 # Planejamento da Solução
 
-Aplicação do CRISP:
-<img src="https://raw.githubusercontent.com/felipejaguiar/sales-predictions/main/img/Fluxogramas(1).png" alt="logo3" style="zoom:80%;" />
+A solução do problema se dará com base no ciclo CRISP, em passos (etapas) que foram adaptados a metodologia. A seguir, a imagem do fluxograma representativo do CRISP e como os passos estão inseridos na metodologia.
 
-Passos:
+<img src="https://raw.githubusercontent.com/felipejaguiar/sales-predictions/main/img/Fluxogramas (1).png" alt="logo3" style="zoom:80%;" />
+Fonte: Autor, 2022.
+
+Os passos citados são:
 
  1️⃣ Descrição dos Dados - Observar a quantidade, tipos, existência de dados faltantes, estatística descritiva, dos dados;
  
@@ -78,6 +80,7 @@ H5: As lojas apresentam menos vendas durante os fins de semana.
 # Demonstração de Resultados
 
 Para fazer as predições foram avaliados 5 modelos, que são: Average, Linear Regression, Lasso (Linear Regression Regularized), Random Forest e XGBoost. E estes foram os resultados para a etapa de validação:
+
 |Model Name		|MAE CV		|MAPE CV	|RMSE CV	         |
 |------------------------------|------------------------------|--------------------|--------------------------|
 |Random Forest 	|836.61 +/- 217.1	|0.12 +/- 0.02	|1254.3 +/- 316.17    |
@@ -86,6 +89,7 @@ Para fazer as predições foram avaliados 5 modelos, que são: Average, Linear R
 |XGBoost Regressor	|7049.2 +/- 588.65	|0.95 +/- 0.0	|7715.2 +/- 689.51    |
 
 Mesmo apresentando um erro maior em relação aos outros na etapa de análise das métricas, o modelo escolhido foi o XGBoost, pois na etapa de hyperparameter fine tunning obteve o melhor resultado em relação ao Random Forest (que seria o escolhido, mas devido a exigência de um maior espaço de publicação que acarretaria mais custos a empresa, não foi). Abaixo estão dispostas as métricas e resultados para o XGBoost:
+
  |         Model Name	|          MAE	   |       MAPE	 |         RMSE          |
  |-----------------------------|----------------------|------------------|----------------------|
 |   XGBoost Regressor	|     767.867031   |    0.115342	 |   1104.999627   |
