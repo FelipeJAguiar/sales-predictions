@@ -31,6 +31,7 @@ A solução do problema se dará com base no ciclo CRISP, em passos (etapas) que
 <img src="https://raw.githubusercontent.com/felipejaguiar/sales-predictions/main/img/Fluxogramas (1).png" alt="logo3" style="zoom:80%;" />
 Fonte: Autor, 2022.
 
+
 Os passos citados são:
 
  1️⃣ Descrição dos Dados - Observar a quantidade, tipos, existência de dados faltantes, estatística descritiva, dos dados;
@@ -101,7 +102,7 @@ Traduzindo para o negócio realizou-se uma soma total das vendas nas predições
 |            $285.982.336,00           |           $285.122.909,38           |         $286.841.799,87       |
 
 
-✳️ As predições de venda para cada loja nas próximas 6 semanas foi disponibilizada no Telegram e podem ser acessadas a qualquer momento. Para isso, basta abrir a conversa e teclar "/" e o número da loja, por exemplo: /22. O link de acesso direto a conversa é: https://t.me/prossmann_bo 
+✳️ As predições de venda para cada loja nas próximas 6 semanas foram disponibilizadas através do Telegram e podem ser acessadas a qualquer momento. Para isso, basta abrir a conversa e teclar "/" e o número da loja, por exemplo: /22. O link de acesso direto a conversa é: https://t.me/prossmann_bo 
 
 # Conclusão e Próximos Passos
 Logo, o primeiro objetivo do projeto foi alcançado, pois conseguiu-se predizer as vendas de cada loja da rede nas próximas 6 semanas, cumprindo assim a tarefa repassada pelo gerente e sendo possível auxiliar diretamente na tomada de decisão do CFO.
